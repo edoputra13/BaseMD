@@ -155,7 +155,7 @@ if (tt_res.status == 404) return reply('Gagal url tidak ditemukan')
 var lagu_tt = await getBuffer(`https://api.lolhuman.xyz/api/tiktokmusic?apikey=SadTeams&url=${chats}`)
 reply(`𝗧𝗜𝗞𝗧𝗢𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗
 
-*Author:* Lexxy Official
+*Author:* Gua Lah
 *Title:* ${tt_res.result.title}
 *Durasi:* ${tt_res.result.duration}
 *Username:* ${tt_res.result.author.username}
@@ -302,7 +302,7 @@ const mark_slebew = '0@s.whatsapp.net'
 const more = String.fromCharCode(8206)
 const strip_ny = more.repeat(4001)
 var footer_nya =`𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 @${setting.ownerNumber.split("@")[0]}`
-let menu_nya = `───「 𝗚𝗨𝗥𝗔𝗕𝗢𝗧-𝗠𝗗 」────
+let menu_nya = `───「 EDO AJA DULU 」────
 
  ${ucapanWaktu} ${cekUser("name", sender)} 👋🏻
 
@@ -458,17 +458,17 @@ case 'grupbot':
 case 'groupbot':
 if (cekUser("id", sender) == null) return reply(mess.OnlyUser)
 reply(`*Forum Bot Whatsapp*
-https://chat.whatsapp.com/E3zewfxrc5pKE6Rzb3BuqG`)
+https://chat.whatsapp.com/`)
 break
 case 'infoupdate':
 reply('-')
 break
 case 'script': case 'sc':
-reply(`_SCRIPT BOT INI DIJUAL_
-_HARGA 80K JIKA MINAT?_
+reply(`_BUTUH OTP BOSKU? MAMPIR SINI_
+_AJUKAN RATE COCOK GASSIN_
 
 *Whatsapp Admin*
-Wa.me/6283834558105`)
+Wa.me/6288213312211`)
 break
 case 'owner':{
 if (cekUser("id", sender) == null) return reply(mess.OnlyUser)
